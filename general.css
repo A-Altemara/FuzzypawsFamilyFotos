@@ -1,3 +1,7 @@
+body {
+  display: inline;
+}
+
 .header {
 outline: 1px solid red;
 display: flex;
@@ -14,6 +18,7 @@ height: 50px;
 .content{
   outline: 1px solid red;
   margin-left: 100px;
+  
   
 }
 
