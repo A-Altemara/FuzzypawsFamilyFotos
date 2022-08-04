@@ -5,6 +5,7 @@ body {
 .header {
 outline: 1px solid red;
 display: flex;
+justify-content: space-between;
 height: 50px;
 }
 
@@ -13,9 +14,10 @@ height: 50px;
   width: 100px;
   height: auto;
   /* margin-top: 50px; */
+  
 }
 
-.content{
+.media_content{
   outline: 1px solid red;
   margin-left: 100px;
   
@@ -28,6 +30,8 @@ height: 50px;
 }
 
 .images {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; */
   height: 175px;
 }
 
