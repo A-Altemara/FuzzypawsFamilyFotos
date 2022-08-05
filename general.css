@@ -7,10 +7,17 @@ outline: 1px solid red;
 display: flex;
 justify-content: space-between;
 height: 50px;
+
+}
+
+.Title {
+  font-size: 35px;
+  font-family: fantasy;
 }
 
 .left_bar {
   outline: 1px solid red;
+  display: inline-block;
   width: 100px;
   height: auto;
   /* margin-top: 50px; */
@@ -20,7 +27,8 @@ height: 50px;
 .media_content{
   outline: 1px solid red;
   margin-left: 100px;
-  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   
 }
 
@@ -32,6 +40,12 @@ height: 50px;
 .images {
   /* display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; */
+  height: 175px;
+}
+
+.cat_images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   height: 175px;
 }
 
