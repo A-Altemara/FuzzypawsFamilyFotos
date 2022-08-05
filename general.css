@@ -3,16 +3,19 @@ body {
 }
 
 .header {
-outline: 1px solid red;
-display: flex;
-justify-content: space-between;
-height: 50px;
+  outline: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  height: 50px;
+  padding: 0px;
 
 }
 
 .Title {
   font-size: 35px;
-  font-family: fantasy;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 45px;
 }
 
 .left_bar {
@@ -20,27 +23,28 @@ height: 50px;
   display: inline-block;
   width: 100px;
   height: auto;
-  /* margin-top: 50px; */
-  
+  margin-top: 50px;
+
 }
 
-.media_content{
+.media_content {
   outline: 1px solid red;
   margin-left: 100px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  
+  display: inline;
+
 }
 
 .pictures {
   outline: 1px solid red;
+  margin-left: 100px;
   /* height: 75px; */
 }
 
 .images {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   height: 175px;
+
 }
 
 .cat_images {
