@@ -1,5 +1,5 @@
 body {
-  display: inline-block;
+  /* display: flex; */
   margin: 0px;
   padding: 0px;
 }
@@ -26,7 +26,6 @@ body {
 
 .left_bar {
   outline: 1px solid red;
-  /* display: inline-block; */
   width: 100px;
   height: auto;
   /* margin-top: 50px; */
@@ -52,14 +51,18 @@ body {
 .pictures {
   outline: 1px solid red;
   margin-left: 100px;
-  /* height: 75px; */
+  height: 75px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 5vw);
+  grid-gap: 100px;
 }
 
 .images {
   /* display: grid; */
   /* grid-template-columns: 1fr 1fr 1fr 1fr; */
   height: 175px;
-
+  
 }
 
 .cat_images {
@@ -70,5 +73,8 @@ body {
 
 .videos {
   outline: 1px solid red;
-
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 5vw);
+  grid-gap: 100px;
 }
