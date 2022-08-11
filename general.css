@@ -7,10 +7,13 @@ body {
 
 .header {
   outline: 1px solid red;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   display: flex;
   justify-content: space-between;
-  /* vertical-align: center; */
-  /* height: 50px; */
+  fill-opacity: 1;
 
 }
 
@@ -19,16 +22,27 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   height: 45px;
   margin-top: 5px;
+  z-index: 1"
 }
 
 .login_credentials {
   margin: 0px;
 }
 
+.logo_image {
+  height: 100px;
+  border-radius: 25px;
+}
+
 .left_bar {
   outline: 1px solid red;
   width: 100px;
   height: auto;
+  position: fixed;
+  bottom: 0;
+  top: 90px;
+  left: 0;
+  
   /* margin-top: 50px; */
 
 }
@@ -49,23 +63,17 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 5vw);
-  column-gap: 100px;
-  row-gap: 155px;
-  
-}
-
-.pictures {
-  outline: 1px solid red;
-  margin-left: 100px;
-  height: 75px;
-  border-radius: 25px;
+  column-gap: 25px;
+  row-gap: 50px;
+  margin-top: 90px;
 }
 
 .images {
-  /* display: grid; */
-  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-  height: 175px;
-  }
+  outline: 1px solid red;
+  /* margin-left: 100px; */
+  height: 150px;
+  border-radius: 25px;
+}
 
 .videos {
   /* outline: 1px solid red; */
