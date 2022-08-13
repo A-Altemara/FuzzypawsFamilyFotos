@@ -2,7 +2,8 @@ body {
   /* display: flex; */
   margin: 0px;
   padding: 0px;
-  background-color: rgb(190, 113, 190);
+  background-color: rgb(102, 56, 102);
+  height: 1000px;
 }
 
 .header {
@@ -14,7 +15,7 @@ body {
   display: flex;
   justify-content: space-between;
   fill-opacity: 1;
-
+  background-color: rgb(102, 56, 102);
 }
 
 .Title {
@@ -40,9 +41,9 @@ body {
   height: auto;
   position: fixed;
   bottom: 0;
-  top: 90px;
+  top: 100px;
   left: 0;
-  
+  background-color: rgb(102, 56, 102);
   /* margin-top: 50px; */
 
 }
@@ -51,27 +52,28 @@ body {
   width: 65px;
   height: 25px;
   border-radius: 25px;
-  background-color: coral;
-  border: 1px solid rgb(194, 101, 68);
+  background-color: rgb(172, 110, 87);
+  border: 1px solid rgb(179, 103, 75);
   margin-bottom: 5px;
 }
 
 .media_content {
   /* outline: 1px solid red; */
   margin-left: 100px;
+  margin-top: 5px;
   display: inline-block;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 5vw);
   column-gap: 25px;
-  row-gap: 50px;
-  margin-top: 90px;
+  row-gap: 100px;
+  margin-top: 100px;
 }
 
 .images {
   outline: 1px solid red;
   /* margin-left: 100px; */
-  height: 150px;
+  width: 150px;
   border-radius: 25px;
 }
 
