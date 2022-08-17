@@ -45,7 +45,7 @@ body {
   left: 0;
   background-color: rgb(102, 56, 102);
   /* margin-top: 50px; */
-
+  cursor: pointer;
 }
 
 .bar_links {
@@ -72,9 +72,9 @@ body {
 
 .images {
   outline: 1px solid red;
-  /* margin-left: 100px; */
-  width: 150px;
+  /* width: 150px; */
   border-radius: 25px;
+  
 }
 
 .videos {
