@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.images {
+  outline: 1px solid red;
+  width: 200px;
+  border-radius: 25px;
+
+}
