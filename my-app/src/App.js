@@ -2,26 +2,18 @@ import './App.css';
 
 import pictures from './data';
 import { useState } from 'react';
+import DisplayKitty from './DisplayKitty';
 
-const pict2 = pictures
-
-function DisplayKitty() {
-  return (
-    <div className='media_content'>
-      <div className='gallery'>
-         {pict2 ? pict2.map(picture => <img className={picture.className} src="./picture/CAM00383.jpg" alt={picture.alt}></img>) : null}
-         
-      </div>
-    </div>
-  )
-}
 
 function App() {
   const [count, setCount] = useState(0)
  
   return (
     <>
+    {/* this is the way components are normally displayed in react */}
+    <DisplayKitty /> 
       {DisplayKitty()}
+      
       <p>Why the F******** can't I get this to show up?</p>
 
 

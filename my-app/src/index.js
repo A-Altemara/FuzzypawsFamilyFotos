@@ -5,22 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import pictures from './data';
 
-function CreateImage(props) {
-  <img className={props.className} src={props.src} alt={props.alt}></img>
-}
-
-
-function DisplayKitty(props) {
-  return (
-    <div className='media_content'>
-      <div className='gallery'>
-        
-          CreateImage(props)
-        
-      </div>
-    </div>
-  )
-}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
