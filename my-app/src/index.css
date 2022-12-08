@@ -18,3 +18,90 @@ code {
   border-radius: 25px;
 
 }
+
+body {
+  /* display: flex; */
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(102, 56, 102);
+  height: 1000px;
+}
+
+.header {
+  outline: 1px solid red;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: space-between;
+  fill-opacity: 1;
+  background-color: rgb(102, 56, 102);
+}
+
+.Title {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 45px;
+  margin-top: 5px;
+  /* z-index: 1" */
+}
+
+.login_credentials {
+  margin: 0px;
+}
+
+.logo_image {
+  height: 100px;
+  border-radius: 25px;
+}
+
+.left_bar {
+  outline: 1px solid red;
+  width: 100px;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  top: 100px;
+  left: 0;
+  background-color: rgb(102, 56, 102);
+  /* margin-top: 50px; */
+  cursor: pointer;
+}
+
+.bar_links {
+  width: 65px;
+  height: 25px;
+  border-radius: 25px;
+  background-color: rgb(172, 110, 87);
+  border: 1px solid rgb(179, 103, 75);
+  margin-bottom: 5px;
+}
+
+.media_content {
+  /* outline: 1px solid red; */
+  margin-left: 100px;
+  margin-top: 5px;
+  display: inline-block;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 5vw);
+  column-gap: 25px;
+  row-gap: 100px;
+  margin-top: 100px;
+}
+
+.images {
+  outline: 1px solid red;
+  /* width: 150px; */
+  border-radius: 25px;
+  
+}
+
+.videos {
+  /* outline: 1px solid red; */
+}
+
+#react {
+  margin: 150px 0 0 150px;
+}

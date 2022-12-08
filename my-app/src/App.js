@@ -2,13 +2,16 @@ import './App.css';
 
 import { useState } from 'react';
 import DisplayKitty from './DisplayKitty';
-
+import DisplayHeader from './header';
+import LeftBar from './Leftbar';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <DisplayHeader />
+      <LeftBar />
       {/* this is the way components are normally displayed in react */}
       <DisplayKitty />
       {DisplayKitty()}
