@@ -1,11 +1,12 @@
 import pictures from "./data"
 
+
 function DisplayKitty() {
-  // console.log(pictures)
+
   const buildImage = (picture) => {
     return (
       <>
-        <img className={picture.className} src={picture.src} alt={picture.alt} />
+        <img key={picture.id.toString()} className={picture.className} src={picture.src} alt={picture.alt} />
       </>
     )
   }
