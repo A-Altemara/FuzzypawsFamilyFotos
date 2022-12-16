@@ -6,7 +6,7 @@ function DisplayKitty() {
   const buildImage = (picture) => {
     return (
       <>
-        <img key={picture.id.toString()} className={picture.className} src={picture.src} alt={picture.alt} />
+        <img className={picture.className} src={picture.src} alt={picture.alt} key={picture.id} />
       </>
     )
   }

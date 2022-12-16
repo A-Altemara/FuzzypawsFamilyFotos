@@ -5,8 +5,8 @@ import sumi from "./picture/sumi.jpg"
 
 
 const pictures = [
-    { id: 100, className: "images Thor", src: cam00383, alt: "Picture of Thor", ButtonClass: "Thor" },
-    { id: 101, className: "images Thor", src: p_20160408_132100, alt: "Picture of Thor", ButtonClass: "Thor" },
+    { id: 100, className: "images Thor", src: cam00383, alt: "Picture of Thor", ButtonClass: "Thor 1" },
+    { id: 101, className: "images Thor", src: p_20160408_132100, alt: "Picture of Thor", ButtonClass: "Thor 2" },
     { id: 102, className: "images Thor Sumi", src: brothers, alt: "Picture Sumi hugging Thor", ButtonClass: "Family" },
     { id: 103, className: "images Sumi", src: sumi, alt: "Picture of Sumi",ButtonClass: "Sumi" }
 

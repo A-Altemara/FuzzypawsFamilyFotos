@@ -16,7 +16,7 @@ function App() {
       <LeftBar  />
       {/* this is the way components are normally displayed in react */}
       <DisplayKitty />
-      {DisplayKitty()}
+      {/* {DisplayKitty()} */}
 
       <p>Why the F******** can't I get this to show up?</p>
 
